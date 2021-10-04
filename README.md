@@ -5,3 +5,7 @@ This program is created using python and opencv, you can integrate it on rasberr
 
 # Note
 You need to install OpenCV to use this program
+
+# Installation
+Clone this repository make sure opencv is installed, run the file.
+
