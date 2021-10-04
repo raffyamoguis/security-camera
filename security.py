@@ -20,6 +20,7 @@ fourcc = cv2.VideoWriter_fourcc(*"mp4v")
 
 while True:
     _, frame = cap.read()
+    frame = cv2.flip(frame, 1)
 
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     faces = face_cascade.detectMultiScale(gray, 1.3, 5)
